@@ -4,7 +4,8 @@ import "./App.css";
 // import FunctionComponent from './lesson/lesson01/FunctionComponent'
 // import Clock from './lesson/lesson02/StateTest'
 // import Toggle from './lesson/lesson02/ProcessEvent'
-import Calculator from './lesson/lesson02/StatusPromotion'
+// import Calculator from './lesson/lesson02/StatusPromotion'
+import UseStateTest from './lesson/lesson03/useStateTest'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <FunctionComponent name="this is FunctionComponent"></FunctionComponent> */}
         {/* <Clock></Clock>
         <Toggle></Toggle> */}
-        <Calculator></Calculator>
+        {/* <Calculator></Calculator> */}
+        <UseStateTest></UseStateTest>
       </header>
     </div>
   );
